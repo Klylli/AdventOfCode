@@ -9,7 +9,7 @@ public class Day1 {
     public static void main2(String[] args) throws FileNotFoundException {
         PriorityQueue<Integer> pq_left = new PriorityQueue<>();
         PriorityQueue<Integer> pq_right = new PriorityQueue<>();
-        File file = new File("/home/konstantinhauser/IdeaProjects/Advent of Code 2024/src/Day1_input");
+        File file = new File("/home/konstantinhauser/Documents/Advent of Code/src/Day1_input");
         Scanner scanner = new Scanner(file);
         while(scanner.hasNextLine()) {
             String line = scanner.nextLine();

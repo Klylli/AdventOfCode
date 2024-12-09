@@ -43,7 +43,7 @@ public class Day7 {
         }
         long[] sum_op = sliceArray(nums, nums[1] + nums[2]);
         long[] mul_op = sliceArray(nums, nums[1] * nums[2]);
-        long[] concat_op = sliceArray(nums, Long.parseLong(nums[1] +Long.toString(nums[2])));
+        long[] concat_op = sliceArray(nums, Long.parseLong(nums[1] + Long.toString(nums[2])));
         if (calculate(sum_op) == 1) return 1;
         if(calculate(mul_op) == 1) return 1;
         if (calculate(concat_op) == 1) return 1;

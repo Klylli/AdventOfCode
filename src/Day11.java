@@ -123,7 +123,7 @@ public class Day11 {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("/home/konstantinhauser/Documents/Advent of Code/src/Day11_input");
+        File file = new File("src/Day11_input");
         Scanner scanner = new Scanner(file);
         String line = scanner.nextLine();
         scanner.close();

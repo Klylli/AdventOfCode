@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Day13 {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("/home/konstantinhauser/Documents/Advent of Code/src/Day13_input");
+        File file = new File("src/Day13_input");
         Scanner scanner = new Scanner(file);
         String help = "Button A: X+";
         String help2 = "Button A: X+94, Y+";

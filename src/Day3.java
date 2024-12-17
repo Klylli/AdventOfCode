@@ -7,7 +7,7 @@ public class Day3 {
         return c - '0' >= 0 && c - '0' <= 9;
     }
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("/home/konstantinhauser/Documents/Advent of Code/src/Day3_input");
+        File file = new File("src/Day3_input");
         Scanner scanner = new Scanner(file);
         long sum = 0;
         boolean enable = true;

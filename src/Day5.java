@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Day5 {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("/home/konstantinhauser/Documents/Advent of Code/src/Day5_input");
+        File file = new File("src/Day5_input");
         Scanner scanner = new Scanner(file);
         boolean pages = false;
         ArrayList<instructions> instructions = new ArrayList<>();

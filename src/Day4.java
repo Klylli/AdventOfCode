@@ -89,7 +89,7 @@ public class Day4 {
         System.out.println(sum);
     }
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("/home/konstantinhauser/Documents/Advent of Code/src/Day4_input");
+        File file = new File("src/Day4_input");
         Scanner scanner = new Scanner(file);
         long sum = 0;
         char[][] board;
